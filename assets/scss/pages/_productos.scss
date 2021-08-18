@@ -1,0 +1,65 @@
+body{
+    font-size: 16px;
+    background-color: #DCDCDC;
+    display: grid;
+    grid-gap: 1.25em;
+    grid-template-areas: "header header header"
+                         " main main main"
+                         "footer footer footer";
+    
+}
+header {
+    grid-area: header;
+    
+
+}
+ main {
+    grid-area: main;
+    h2{
+        color: #FF8303;
+        font-size: 2.5em; 
+        font-weight: 400;
+        text-align: left;
+        letter-spacing: 2px;
+        margin-top: 3.12rem;
+        margin-left: 3rem;
+        
+    }
+    p{
+        margin-top: 2.25rem;
+        margin-left: 2rem;
+        font-size: 1.2rem;
+        font-weight: 300;
+    }
+    .tarjetas{
+        display: flex;
+        margin-left: 100px;
+        margin-top: 80px;
+        .card{
+            border: 1px solid #FF7C00;
+            padding-top: 20px;
+            .card-img-top{
+                width: 200px;
+                height: 200px;
+                margin-left: 20px;
+            }
+            h5{
+                color: #fd7f00;
+                font-size: 1rem;
+                margin-top: 20px;
+                margin-bottom: 20px;
+                margin-left: 10px;
+            }
+            p{
+                letter-spacing: 1px;
+            }
+
+        }
+    }
+    
+}
+ footer{
+    grid-area: footer;
+    
+
+}
